@@ -1,0 +1,48 @@
+﻿# Ignore everything by default
+*
+
+# Allow Git to inspect subfolders
+!*/
+
+# C/C++ source code
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+!*.inl
+!*.asm
+
+# Visual Studio / CMake
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!*.props
+!*.targets
+!*.cmake
+!CMakeLists.txt
+
+# Scripts, configuration, documentation
+!*.cs
+!*.py
+!*.ps1
+!*.bat
+!*.cmd
+!*.json
+!*.ini
+!*.cfg
+!*.toml
+!*.yml
+!*.yaml
+!*.md
+!*.txt
+
+# Git configuration
+!.gitignore
+!.gitattributes
+
+# Exclude build output
+.vs/
+build/
+out/
+bin/
+obj/
