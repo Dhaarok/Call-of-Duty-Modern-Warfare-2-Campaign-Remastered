@@ -1,48 +1,20 @@
-﻿# Ignore everything by default
-*
+﻿# Large original game data directory
+/Data/
 
-# Allow Git to inspect subfolders
-!*/
+# User-specific saves, profiles and settings
+/players2/
 
-# C/C++ source code
-!*.c
-!*.cpp
-!*.h
-!*.hpp
-!*.inl
-!*.asm
+# Large debug symbols and crash dumps
+*.pdb
+*.dmp
+*.mdmp
 
-# Visual Studio / CMake
-!*.sln
-!*.vcxproj
-!*.vcxproj.filters
-!*.props
-!*.targets
-!*.cmake
-!CMakeLists.txt
+# Temporary files and logs
+*.log
+*.tmp
 
-# Scripts, configuration, documentation
-!*.cs
-!*.py
-!*.ps1
-!*.bat
-!*.cmd
-!*.json
-!*.ini
-!*.cfg
-!*.toml
-!*.yml
-!*.yaml
-!*.md
-!*.txt
-
-# Git configuration
-!.gitignore
-!.gitattributes
-
-# Exclude build output
+# Development caches
 .vs/
 build/
 out/
-bin/
 obj/
